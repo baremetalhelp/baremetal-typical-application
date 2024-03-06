@@ -1,0 +1,14 @@
+management:
+  endpoint:
+    metrics:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  datasource:
+    driver-class-name:
+      com.amazonaws.secretsmanager.sql.AWSSecretsManagerMySQLDriver
+    url: jdbc-secretsmanager:mysql://${DB_HOST}:3306
+    username: ${DB_CREDENTIALS}

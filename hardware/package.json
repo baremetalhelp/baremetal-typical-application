@@ -1,0 +1,29 @@
+{
+  "name": "book-service-hardware",
+  "version": "0.1.0",
+  "bin": {
+    "book-service-hardware": "bin/book-service-hardware.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.11.16",
+    "aws-cdk": "2.127.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.3.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.525.0",
+    "aws-cdk-lib": "2.127.0",
+    "cdk-iam-floyd": "^0.608.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}

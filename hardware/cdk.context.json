@@ -1,0 +1,70 @@
+{
+  "vpc-provider:account=607477397669:filter.tag:Name=baremetal-vpc:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0b350ed740f7b8cb0",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "ownerAccountId": "607477397669",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-053fecf54de691da0",
+            "cidr": "10.0.128.0/19",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-0bef63c3e72218448"
+          },
+          {
+            "subnetId": "subnet-0693719f372bc1371",
+            "cidr": "10.0.160.0/19",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-059fed951628701d9"
+          },
+          {
+            "subnetId": "subnet-075b3805cde19479b",
+            "cidr": "10.0.192.0/19",
+            "availabilityZone": "us-east-1c",
+            "routeTableId": "rtb-0f6f1745a0a04cb6a"
+          },
+          {
+            "subnetId": "subnet-048ac5429bbcb78c4",
+            "cidr": "10.0.224.0/19",
+            "availabilityZone": "us-east-1d",
+            "routeTableId": "rtb-0fcd1ea8880088cda"
+          }
+        ]
+      },
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-06d715735263d0521",
+            "cidr": "10.0.0.0/19",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-01723158e44247b8a"
+          },
+          {
+            "subnetId": "subnet-089ae4bc37ecedad5",
+            "cidr": "10.0.32.0/19",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-0091ec964b985b2e7"
+          },
+          {
+            "subnetId": "subnet-0ccde49b011f8402b",
+            "cidr": "10.0.64.0/19",
+            "availabilityZone": "us-east-1c",
+            "routeTableId": "rtb-012ddbcb89ce98485"
+          },
+          {
+            "subnetId": "subnet-086ff411be82af317",
+            "cidr": "10.0.96.0/19",
+            "availabilityZone": "us-east-1d",
+            "routeTableId": "rtb-0ff460b280e5bf4e6"
+          }
+        ]
+      }
+    ]
+  }
+}
